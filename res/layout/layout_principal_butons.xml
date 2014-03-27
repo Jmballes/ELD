@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:layout_width="match_parent" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:gravity="center_vertical" -->
+<!--     android:orientation="vertical"  -->
+<!--     android:visibility="visible" -->
+<!--      > -->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/hidecontainerempty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:background="@null"
+            android:clipChildren="false"
+             android:animateLayoutChanges="true">
+             
+		 
+
+            <ImageButton 
+                android:id="@+id/jugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="left"
+                android:src="@drawable/ic_play">
+<!--                 android:visibility="invisible" -->
+                
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/jugarx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_play2">
+<!--                 android:visibility="invisible"  -->
+               
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/opciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_herramientas">
+<!--                 android:visibility="invisible"  -->
+               
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/ayuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_help"
+
+                android:background="@null">
+                
+                 
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/salir"
+                
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+
+                 android:src="@drawable/ic_exit" >
+            </ImageButton>
+  </LinearLayout> 
+
+
+<!-- </LinearLayout> -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="font_size">12</integer>
+     <integer name="MaxDigitsPoints">10</integer>
+     <dimen  name="border_pop_up">8dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuIngameContinue"
+        android:icon="@drawable/ic_play"
+             android:title="@string/menu_continuar"    />
+    
+    <item android:id="@+id/menuIngameOptions"
+        android:icon="@drawable/ic_herramientas"
+          android:title="@string/menu_opciones"
+          />
+    <item android:id="@+id/menuIngameBack"
+         android:icon="@drawable/ic_exit"
+         android:title="@string/menu_salir"
+          />
+</menu>

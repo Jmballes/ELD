@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="25dp"
+	    android:paddingRight="25dp" >
+
+        <!-- The following four examples use a large image -->
+        <!-- 1. Non-scaled view, for reference -->
+
+        <TextView
+            android:id="@+id/bdposition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_salir_ok" />
+
+        <TextView
+            android:id="@+id/bduser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/dialog_salir_cancelar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" >
+
+        <!-- The following four examples use a large image -->
+        <!-- 1. Non-scaled view, for reference -->
+
+        <TextView
+            android:id="@+id/bdround"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aplict_name" />
+
+        <TextView
+            android:id="@+id/bdpoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/dialog_salir_cancelar" />
+    </RelativeLayout>
+
+</LinearLayout>
